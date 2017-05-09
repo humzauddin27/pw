@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Humza Faheemuddin">
 
     <title>Humza Faheemuddin</title>
 
@@ -54,11 +54,15 @@
                         <a href="#portfolio">Projects</a>
                     </li>
                     <li class="page-scroll">
+                        <a href="#experience">Experience</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#skills">Skills</a>
+                    </li>					
+                    <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#skills">Skills</a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -71,12 +75,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img id="ppic" class="img-responsive" src="img/pic.jpg" alt="" style="border-radius: 22em; height: 60%; width: 60%; max-height: 256px; max-width: 256px;">
+                    <img id="ppic" class="img-responsive" src="img/pics.jpg" alt="" style="border-radius: 22em; height: 60%; width: 60%; max-height: 256px; max-width: 256px;">
                     <div class="intro-text"> 
 						<span class="name">HUMZA FAHEEMUDDIN</span>
                         <hr>
                         <span class="skills">Student | Programmer | Gamer </span>
-						<p class="skills">2A Honours Mathematics | University of Waterloo</p>
+						<p class="skills">2B Honours Mathematics | University of Waterloo | 20</p>
                     </div>
 					
                 </div>
@@ -85,6 +89,7 @@
     </header>
 
     <!-- Portfolio Grid Section -->
+	
     <section id="portfolio">
         <div class="container">
             <div class="row">
@@ -94,6 +99,16 @@
                 </div>
             </div>
             <div class="row">
+			    <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roller_icon.JPG" class="img-responsive" alt="">
+                    </a>
+                </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -114,7 +129,9 @@
                         <img src="img/portfolio/epl.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+            </div>
+			<div class="row">
+				<div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -124,15 +141,92 @@
                         <img src="img/portfolio/WORLD MAP.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tap_icon.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
 				<div class="col-lg-8 col-lg-offset-2 text-center">
 							<a href="http://www.github.com/humzauddin27" class="btn btn-lg btn-outline">
 								<i class="fa fa-fw fa-github"></i> Check out my GitHub!
 							</a>
 				</div>
-            </div>
+
+			</div>
         </div>
     </section>
 
+	<section class="success" id="experience">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+				<h2>WORK EXPERIENCE</h2>
+                <hr>
+            </div>
+				
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1 text-center"> 
+					<img id="work-images" src="img/opentext-logo.png" style="width: 40%; min-width: 250px;" onclick="clickOpentext()">
+					<img id="work-images" src="img/environment-canada-logo.png" style="width: 40%; min-width 250px;" onclick="clickEC()">
+				</div>
+            </div>
+            <div class="text-center" id="descriptions">
+				<div id="temp-msg"> 
+					<p> Click to find out about what I did at each company! </p>
+				</div>
+				<div id="opentext-job-description" style="display: none;" > 
+					<h3> Opentext Corporation </h3>
+					<p> <strong> January 2017 - April 2017 </strong> </p>
+					<p> Wrote various automated tests against Windows & Linux environments for release version of a new product used by over 50,000 customers via Selenium & WebDriver </p>
+					<p> Improved outdated test cases to run 250% more efficiently by removing unnecessary code and pulling information from REST API </p>
+					<p> Discovered and corrected bugs that were found in UI of web application </p>
+					<p> Assisted adjusting web application UI to be responsive for mobile browsing </p>
+				</div>
+				<div id="ec-job-description" style="display: none;" > 
+					<h3> Environment and Climate Change Canada </h3>
+					<p> <strong> May 2016 - August 2016 </strong> </p>
+					<p> Facilitated analytical queries via Python scripts to extract time stamped data for later assessment and statistical comparison </p>
+					<p> Optimized backup times from up to 20 hours to maximum 30 minutes via Batch scripts to automate scheduled backups  </p>
+					<p> Enhanced and developed a unified web-based graph plotting tool to visually analyze plots and detect anomalies in data </p>
+				</div>
+            </div>
+        </div>
+    </section>
+	
+	    
+	<!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Skills</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+			<div class="col-lg-12" id="skills">
+					<img src="img/C.png" id="lang" style="height: 20%; width: 22%;">
+					<img src="img/java.png" id="lang" style="height:20%; width: 18%;">
+					<img src="img/Python.png" id="lang" style="height: 20%; width: 18%;">
+					<img src="img/Dr.Racket.png" id="lang" style="height: 18%; width: 17%;">
+					<img src="img/Unity.png" id="lang" style="height: 15%; width: 15%;">
+			</div>
+			<div class="col-lg-12" id="skills">
+					<img src="img/PHP.png" id="lang" style="height: 20%; width: 22%; margin-right: 1%;">
+					<img src="img/HTML.png" id="lang" style="height: 20%; width: 18%;">
+					<img src="img/CSS.png" id="lang" style="height: 16%; width: 14%;">
+					<img src="img/Javascript.png" id="lang" style="height: 20%; width: 20%;">
+					<img src="img/UE4.png" id="lang" style="height: 18%; width: 18%;">
+
+			</div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
     <!-- About Section -->
     <section class="success" id="about">
         <div class="container">
@@ -183,41 +277,15 @@
             </div>
         </div>
     </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Skills</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-			<div class="col-lg-12" id="skills">
-                
-					<img src="img/C.png" id="lang" style="height: 20%; width: 22%;">
-					<img src="img/java.png" id="lang" style="height:20%; width: 18%;">
-					<img src="img/Python.png" id="lang" style="height: 20%; width: 18%;">
-					<img src="img/Dr.Racket.png" id="lang" style="height: 18%; width: 17%;">
-					<img src="img/Android.png" id="lang" style="height: 20%; width: 18%;">
-			</div>
-			<div class="col-lg-12" id="skills">
-					<img src="img/PHP.png" id="lang" style="height: 20%; width: 22%; margin-right: 1%;">
-					<img src="img/HTML.png" id="lang" style="height: 20%; width: 18%;">
-					<img src="img/CSS.png" id="lang" style="height: 16%; width: 14%;">
-					<img src="img/Javascript.png" id="lang" style="height: 20%; width: 20%;">
-					<img src="img/UE4.png" id="lang" style="height: 18%; width: 18%;">
-
-			</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+	
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
+			    <div class="col-lg-12 text-center">
+                    <h2>FIND ME</h2>
+                    <hr>
+                </div>
                 <div class="row">
                     <div class="footer-col col-md-4">
 						<h3> Contact Me </h3>
@@ -225,7 +293,7 @@
 						<p> 519-573-0079 </p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Find me on Social Media</h3>
+                        <h3>I'm kind of social</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="http://www.facebook.com/humzauddin27" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
@@ -244,7 +312,7 @@
                     </div>
                     <div class="footer-col col-md-4">
 						<h3> Resumé </h3>
-							<a href="resume 2.9.3.pdf" class="btn btn-lg btn-outline">
+							<a href="resume 3.0.3.pdf" class="btn btn-lg btn-outline">
 								<i class="fa fa-download"></i> Download my resumé!
 							</a>
                     </div>
@@ -255,7 +323,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Humza Faheemuddin 2016, All Rights Reserved
+                        Copyright &copy; Humza Faheemuddin 2017, All Rights Reserved
                     </div>
                 </div>
             </div>
@@ -270,6 +338,44 @@
     </div>
 
     <!-- Portfolio Modals -->
+	 <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>ROLLER</h2>
+                            <hr>
+                            <img src="img/portfolio/roller.jpg" class="img-responsive img-centered" alt="">
+                            <p>ROLLER was my first Unity 3D game, and was made to primarily play around with the game engine and to learn a bit of C#. </p>
+							<p>A very simple premise of rolling a ball around while collecting cubes on levels that I created motivated from classic video games like Super Mario 64 and Megaman! </p>
+                            <ul class="list-inline item-details">
+                                <li>Language:
+                                    <strong>C#
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>March 2017
+                                    </strong>
+                                </li>
+                                <li>Github:
+                                    <strong><a href="http://www.github.com/humzauddin27">ROLLER</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -325,7 +431,7 @@
                             <img src="img/portfolio/epl (2).jpg" class="img-responsive img-centered" alt="">
                             <p>EPL Score Predictor is a data driven game that gathered information from the EPL table and predicted scores based off of these stats.</p>
 							<p>After taking in which team you want, you can choose to simulate an entire season, or just a game, and the score predictor will do the rest! </p>
-							
+							<ul class="list-inline item-details">
                                 <li>Language:
                                     <strong>Java
                                     </strong>
@@ -384,8 +490,82 @@
             </div>
         </div>
     </div>
-
-
+	<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>TAP</h2>
+                            <hr>
+                            <img src="img/portfolio/tap_icon.jpg" class="img-responsive img-centered" alt="">
+                            <p>TAP is an addicting clicking/tapping game. I originally meant to develop this for Android but wanted something to model that on so I made this for PC instead. Mobile version is coming (soon)! </p>
+							<p>Clicking the exact number of times within the black circle will get you to the next level! Various difficulties that include moving circles and the counter freezing make this game really addicting and challenging (and annoying). </p>
+                            <ul class="list-inline item-details">
+                                <li>Language:
+                                    <strong>Python
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>October 2016
+                                    </strong>
+                                </li>
+                                <li>Github:
+                                    <strong><a href="http://www.github.com/humzauddin27">TAP-PC</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Country Guesser</h2>
+                            <hr>
+                            <img src="img/portfolio/WORLD_MAP.jpg" class="img-responsive img-centered" alt="">
+                            <p>Country Guesser is an application that guesses the country that you're thinking based off of yes or no questions! </p>
+							<p>Using classes, user I/O and from reading in from external files, this program is accurately able to guess your country within 7 questions! </p>
+                            <ul class="list-inline item-details">
+                                <li>Language:
+                                    <strong>Java
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>November 2013
+                                    </strong>
+                                </li>
+                                <li>Github:
+                                    <strong><a href="http://www.github.com/humzauddin27">Country Guesser</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
@@ -401,10 +581,21 @@
 	<!-- Audio Playing Test https://css-tricks.com/play-sound-on-hover/ (visit this site)--> 
 	
 	<script>
+			function clickOpentext(){
+				document.getElementById("temp-msg").style.display = 'none';
+				document.getElementById("ec-job-description").style.display = 'none';
+				document.getElementById("opentext-job-description").style.display = 'block';
+			}
+			
+			function clickEC(){
+				document.getElementById("temp-msg").style.display = 'none';
+				document.getElementById("opentext-job-description").style.display = 'none';
+				document.getElementById("ec-job-description").style.display = 'block';
+			}
 			function mario(){
 				var snd = new Audio("Mario.mp3"); // buffers automatically when created
 				snd.play();
-            		}
+            }
 			function megaman(){
 				var snd = new Audio("Megaman.mp3");
 				snd.play()
@@ -434,9 +625,6 @@
 				snd.play()
 			}
 	</script>
-
-
-
 </body>
 
 </html>
