@@ -79,8 +79,8 @@
                     <div class="intro-text"> 
 						<span class="name">HUMZA FAHEEMUDDIN</span>
                         <hr>
-                        <span class="skills">Student | Programmer | Gamer </span>
-						<p class="skills">2B Honours Mathematics | University of Waterloo | 20</p>
+                        <span class="skills">Student | Developer | Gamer </span>
+						<p class="skills"> 3A Math & CS | University of Waterloo | 20</p>
                     </div>
 					
                 </div>
@@ -169,17 +169,28 @@
             </div>
 				
 			<div class="row">
-				<div class="col-lg-10 col-lg-offset-1 text-center"> 
-					<img id="work-images" src="img/opentext-logo.png" style="min-width: 325px;" onclick="clickOpentext()">
-					<img id="work-images" src="img/Environment-Canada-Logo.png" style="min-width 250px;" onclick="clickEC()">
+				<div class="col-lg-10 col-lg-offset-1 text-center">
+					<img id="work-images" src="img/bespoke_logo.png" onclick="clickBespoke()" style="max-width: 300px">
+					<img id="work-images" src="img/opentext-logo.png" style="min-width: 280px;" onclick="clickOpentext()">
+					<img id="work-images" src="img/Environment-Canada-Logo.png" style="min-width: 240px; max-width: 240px;" onclick="clickEC()">
 				</div>
             </div>
             <div class="text-center" id="descriptions">
 				<div id="temp-msg"> 
 					<p> Click to find out about what I did at each company! </p>
 				</div>
+				<div id="bespoke-job-description" style="display: none;" > 
+					<h3> Bespoke Metrics Inc. </h3>
+					<p> <strong> Front-end Developer </strong> </p>
+					<p> <strong> September 2017 - December 2017 </strong> </p>
+					<p> Implemented audit system allowing communication between data administrators and subcontractors using libraries such as Immutable.js and Redux-Sagas for asynchronous data fetching for absent or incorrectly entered data </p>
+					<p> Internationalized COMPASS web application using React-Intl, allowing for application users to view the site in a locale of their choice </p>
+					<p> Created auto-formatting number field which would update text’s appearance as user types </p>
+					<p> Communicated closely with backend team to structure payloads that would be recieved by front-end </p>
+				</div>
 				<div id="opentext-job-description" style="display: none;" > 
 					<h3> Opentext Corporation </h3>
+					<p> <strong> Quality Specialist </strong> </p>
 					<p> <strong> January 2017 - April 2017 </strong> </p>
 					<p> Wrote various automated tests against Windows & Linux environments for release version of a new product used by over 50,000 customers via Selenium & WebDriver </p>
 					<p> Improved outdated test cases to run 250% more efficiently by removing unnecessary code and pulling information from REST API </p>
@@ -188,6 +199,7 @@
 				</div>
 				<div id="ec-job-description" style="display: none;" > 
 					<h3> Environment and Climate Change Canada </h3>
+					<p> <strong> Student Programmer and IT </strong> </p>
 					<p> <strong> May 2016 - August 2016 </strong> </p>
 					<p> Facilitated analytical queries via Python scripts to extract time stamped data for later assessment and statistical comparison </p>
 					<p> Optimized backup times from up to 20 hours to maximum 30 minutes via Batch scripts to automate scheduled backups  </p>
@@ -203,28 +215,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Skills</h2>
+                    <h2>Languages & Frameworks</h2>
                     <hr class="primary">
                 </div>
             </div>
 			<div class="col-lg-12" id="skills">
-					<img src="img/C.png" id="lang" style="height: 20%; width: 22%;">
-					<img src="img/java.png" id="lang" style="height:20%; width: 18%;">
-					<img src="img/Python.png" id="lang" style="height: 20%; width: 18%;">
-					<img src="img/Dr.Racket.png" id="lang" style="height: 18%; width: 17%;">
-					<img src="img/unity.png" id="lang" style="height: 15%; width: 15%;">
-			</div>
-			<div class="col-lg-12" id="skills">
-					<img src="img/PHP.png" id="lang" style="height: 20%; width: 22%; margin-right: 1%;">
-					<img src="img/HTML.png" id="lang" style="height: 20%; width: 18%;">
-					<img src="img/CSS.png" id="lang" style="height: 16%; width: 14%;">
-					<img src="img/Javascript.png" id="lang" style="height: 20%; width: 20%;">
-					<img src="img/UE4.png" id="lang" style="height: 18%; width: 18%;">
-
-			</div>
-                </div>
-            </div>
-        </div>
+				<div class="row">
+	                <div class="col-lg-4">
+						<div class="imageContainer">
+							<img src="img/react.png" id="lang">
+							<img src="img/redux.png" id="lang">
+							<img src="img/CSS.png" id="lang">
+						</div>
+						<p> Some front-end tools that I've used and am comfortable with. Also have used some further extensions of these, like React-Native, Redux-Sagas and the CSS ClassNames. </p>
+	            	</div>
+	                <div class="col-lg-4">
+						<div class="imageContainer">
+							<img src="img/c++.png" id="lang">
+							<img src="img/Python.png" id="lang">
+							<img src="img/java.png" id="lang">
+						</div>
+						<p> Some of the languages that I've learned in school that I've used on coding challenges and side-projects. I've created games in all of these languages coincidentally! </p>
+	            	</div> 
+					<div class="col-lg-4">
+						<div class="imageContainer">
+							<img src="img/ue4.png" id="lang">
+							<img src="img/unity.png" id="lang">
+						</div>
+						<p> Some of the languages that I've learned in school that I've used on coding challenges and side-projects. I've created games in all of these languages coincidentally! </p>
+	            	</div> 
+	        	</div>
+        	</div>
+    	</div>
     </section>
 	
     <!-- About Section -->
@@ -238,14 +260,16 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>I'm a student at UWaterloo, looking to major in Computer Science. I've spent years coding and playing around with different
-					languages including Python, Java, C and more. I want to be a game developer more than anything, as gaming is truly my passion.</p>
-                <hr></div>
+                    <p>I'm a student at UWaterloo studying Math and Computer Science. I've spent years coding and playing around with different
+					languages including Javascript (React), Python, Java, C++ and more. I want to be a frontend developer in the future with a side of game development (who knows!).</p>
+                <hr>
+            </div>
                 <div class="col-lg-4">
                     <p>Other than that, I'm an active person who loves to be out and doing something. I've played & watched soccer for
-					almost 10 years now (anyone who has seen me knows I am an avid Chelsea FC fan)
-					, and I try to stay consistent in having tons of physical activity during the week. </p> 
-                <hr></div> 
+					more than 10 years now (anyone who has seen me knows I am an avid Chelsea FC fan)
+					, and I try to stay consistent in having tons of physical activity during the week. Nice serve! </p> 
+                <hr>
+            </div> 
 				<div class="col-lg-12 text-center">
 					
 					<img src="https://vignette2.wikia.nocookie.net/fantendo/images/2/27/Mario_Walking.gif/revision/latest?cb=20091121195044" style="height: 11%; width: 11%; margin-top: 35px; max-height: 84px; max-width: 84px;" value="PLAY"  onclick="mario()">
@@ -256,23 +280,13 @@
 					
 					<img src="https://24.media.tumblr.com/fe61dc2b7ef08a538b906eced7fa5cb5/tumblr_mitnv9F37V1s5iz0ho1_500.gif" style="height: 15%; width: 11%; margin-top: 40px; max-height: 84px; max-width: 80px;" value="PLAY"  onclick="pikachu()">
 					
-					
-					
-					
-					
-					
 					<img id="fe" src="https://www.nedgame.nl/gfx/sonic.png" style="height: 10%; width: 10%; margin-top: 45px; max-height: 90px; max-width: 75px;" value="PLAY"  onclick="sonic()">
 					
 					<img id="fe" src="https://orig05.deviantart.net/0d2c/f/2010/089/2/0/naruto_running_by_darkluigi333.gif" style="height: 15%; width: 15%; margin-top: 30px; max-height: 100px; max-width: 100px" value="PLAY"  onclick="naruto()">
 					
 					<img src="https://rs49.pbsrc.com/albums/f298/OnePieceAccount/luffyrun.gif~c200" style="height: 13%; width: 13%; margin-top: 30px;  max-height: 100px; max-width: 100px" value="PLAY"  onclick="luffy()">
 					
-					<img src="https://orig06.deviantart.net/3549/f/2013/180/6/2/ffvii__walking_cloud_sprite_wip_by_o_fiveasone_o-d6b5x7q.gif" style="height: 12%; width: 12%; margin-top: 20px;  max-height: 120px; max-width: 100px" value="PLAY"  onclick="cloud()">
-					
-					
-
-					
-
+					<img src="https://orig06.deviantart.net/3549/f/2013/180/6/2/ffvii__walking_cloud_sprite_wip_by_o_fiveasone_o-d6b5x7q.gif" style="height: 12%; width: 12%; margin-top: 20px;  max-height: 120px; max-width: 100px" value="PLAY"  onclick="cloud()">					
 				</div>
             </div>
         </div>
@@ -299,12 +313,8 @@
                                 <a href="http://www.facebook.com/humzauddin27" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
 							<li>
-                                <a href="http://www.twitter.com/azmuh27" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="http://www.twitter.com/azmuH" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
-                            <li>
-                                <a href="http://www.instagram.com/humzauddin27" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
-                            </li>
-
                             <li>
                                 <a href="https://ca.linkedin.com/in/humzauddin27" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
@@ -323,7 +333,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Humza Faheemuddin 2017, All Rights Reserved
+                        Copyright &copy; Humza Faheemuddin 2018, All Rights Reserved
                     </div>
                 </div>
             </div>
@@ -581,14 +591,23 @@
 	<!-- Audio Playing Test https://css-tricks.com/play-sound-on-hover/ (visit this site)--> 
 	
 	<script>
+			function clickBespoke(){
+				document.getElementById("temp-msg").style.display = 'none';
+				document.getElementById("ec-job-description").style.display = 'none';
+				document.getElementById("opentext-job-description").style.display = 'none';
+				document.getElementById("bespoke-job-description").style.display = 'block';
+
+			}
 			function clickOpentext(){
 				document.getElementById("temp-msg").style.display = 'none';
 				document.getElementById("ec-job-description").style.display = 'none';
+				document.getElementById("bespoke-job-description").style.display = 'none';
 				document.getElementById("opentext-job-description").style.display = 'block';
 			}
 			
 			function clickEC(){
 				document.getElementById("temp-msg").style.display = 'none';
+				document.getElementById("bespoke-job-description").style.display = 'none';
 				document.getElementById("opentext-job-description").style.display = 'none';
 				document.getElementById("ec-job-description").style.display = 'block';
 			}

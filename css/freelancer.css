@@ -516,6 +516,7 @@ fieldset[disabled] .btn-success.active {
   /* Safari and Chrome */
   z-index: 1052;
 }
+
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
@@ -539,6 +540,7 @@ fieldset[disabled] .btn-success.active {
 #to-top:hover {
 	color: #18BC9C;
 }
+
 #lang:hover {
 	transform: scale(1.1, 1.1);
 	transition: 0.1s;
@@ -554,10 +556,23 @@ fieldset[disabled] .btn-success.active {
 	cursor: pointer;
 }
 
-#descriptions {
-	
-}
-
 ul li {
 	list-style: none;
+}
+
+#lang {
+  width: 25%;
+  height: 25%;
+  padding: 0.5rem;
+}
+
+.row {
+  text-align: center;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
 }
