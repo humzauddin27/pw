@@ -546,16 +546,6 @@ fieldset[disabled] .btn-success.active {
 	transition: 0.1s;
 }
 
-#work-images {
-	padding: 50px;
-}
-
-#work-images:hover {
-	transform: scale(1.1, 1.1);
-	transition: 0.1s;
-	cursor: pointer;
-}
-
 ul li {
 	list-style: none;
 }
@@ -585,4 +575,9 @@ ul li {
 #ue4 {
   width: 28%;
   padding: 0.5rem;
+}
+
+.customImage:hover {
+	transform: scale(1.1, 1.1);
+	transition: 0.1s;
 }
