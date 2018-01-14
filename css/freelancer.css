@@ -576,3 +576,13 @@ ul li {
   justify-content: center;
   padding: 2rem;
 }
+
+.java {
+  width: 22%;
+  padding: 0.5rem;
+}
+
+.ue4 {
+  width: 28%;
+  padding: 0.5rem;
+}
