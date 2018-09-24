@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
 p {
@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #18bc9c;
   outline: none;
 }
 h1,
@@ -54,22 +54,22 @@ hr {
   border-color: white;
 }
 hr:after {
-  background-color: #18BC9C;
+  background-color: #18bc9c;
   color: white;
 }
 hr.primary {
-  border-color: #2C3E50;
+  border-color: #2c3e50;
 }
 hr.primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: #2c3e50;
 }
 .img-centered {
   margin: 0 auto;
 }
 
 .space {
-	border-width: 1px;
+  border-width: 1px;
 }
 
 header {
@@ -77,7 +77,7 @@ header {
   color: #fff;
   background: #18bc9c;
   background-size: cover;
-  background-image: url('http://www.makecovers.com/wp-content/uploads/2015/01/Coder-Screen.jpg')
+  background-image: url("http://www.makecovers.com/wp-content/uploads/2015/01/Coder-Screen.jpg");
 }
 
 header .container {
@@ -87,7 +87,6 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
-  
 }
 header .intro-text .name {
   display: block;
@@ -97,7 +96,7 @@ header .intro-text .name {
   font-size: 2em;
 }
 
-header .intro-text .gamename {	
+header .intro-text .gamename {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -146,7 +145,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #18bc9c;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -155,13 +154,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #18bc9c;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #18bc9c;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -171,9 +170,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #18bc9c;
   color: white;
-  border-color: #18BC9C;
+  border-color: #18bc9c;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -203,7 +202,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #2C3E50;
+  background: #2c3e50;
   color: white;
 }
 @media (max-width: 767px) {
@@ -292,10 +291,10 @@ section.success {
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 0;
-  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-  -moz-transition: top 0.3s ease,opacity 0.3s ease;
-  -ms-transition: top 0.3s ease,opacity 0.3s ease;
-  transition: top 0.3s ease,opacity 0.3s ease;
+  -webkit-transition: top 0.3s ease, opacity 0.3s ease;
+  -moz-transition: top 0.3s ease, opacity 0.3s ease;
+  -ms-transition: top 0.3s ease, opacity 0.3s ease;
+  transition: top 0.3s ease, opacity 0.3s ease;
 }
 .floating-label-form-group:not(:first-child) {
   padding-left: 14px;
@@ -306,7 +305,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #18bc9c;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -319,7 +318,7 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #2c3e50;
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -329,9 +328,9 @@ footer .footer-below {
   background-color: #233140;
 }
 .btn-outline {
-  color: #18BC9C;
+  color: #18bc9c;
   font-size: 20px;
-  border: solid 2px #18BC9C;
+  border: solid 2px #18bc9c;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -341,13 +340,13 @@ footer .footer-below {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background: #18BC9C;
+  background: #18bc9c;
   border: solid 2px white;
 }
 .btn-primary {
   color: white;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -379,17 +378,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 .btn-primary .badge {
-  color: #2C3E50;
+  color: #2c3e50;
   background-color: white;
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #18bc9c;
+  border-color: #18bc9c;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -421,11 +420,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #18bc9c;
+  border-color: #18bc9c;
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: #18bc9c;
   background-color: white;
 }
 .btn-social {
@@ -497,7 +496,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: #2c3e50;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -508,7 +507,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: #2c3e50;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -523,41 +522,40 @@ fieldset[disabled] .btn-success.active {
 }
 
 #fe {
-	-moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
-
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 #ppic:hover {
-	transform: scale(1.1, 1.1);
-	transition: 0.1s;
+  transform: scale(1.1, 1.1);
+  transition: 0.1s;
 }
 
 #to-top:hover {
-	color: #18BC9C;
+  color: #18bc9c;
 }
 
 #lang:hover {
-	transform: scale(1.1, 1.1);
-	transition: 0.1s;
+  transform: scale(1.1, 1.1);
+  transition: 0.1s;
 }
 
 #work-images {
-	padding: 50px;
+  padding: 10px;
 }
 
 #work-images:hover {
-	transform: scale(1.1, 1.1);
-	transition: 0.1s;
-	cursor: pointer;
+  transform: scale(1.1, 1.1);
+  transition: 0.1s;
+  cursor: pointer;
 }
 
 ul li {
-	list-style: none;
+  list-style: none;
 }
 
 #lang {
